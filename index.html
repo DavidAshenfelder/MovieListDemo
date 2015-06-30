@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <title>IMBb</title>
+  <script type="text/template" id="movieTmpl">
+    <h3><%=title%></h3>
+    <img src="<%=cover%>"/>
+    <p>
+      <%=plot%>
+    </p>
+  </script>
+  <script type="text/template" id="formTmpl">
+    <h3>New Movie</h3>
+    <form action="">
+      <input type="text" name="title" placeholder="Title">
+      <input type="text" name="cover" placeholder="Cover Image">
+      <textarea type="textarea" name="plot" placeholder="Plot"></textarea>
+      <button type="submit">Add Movie</button>
+    </form>
+  </script>
+</head>
+<body>
+  <section id="movies">
+
+  </section>
+  <aside id="newMovie">
+
+  </aside>
+  <div >
+
+  </div>
+
+  <script type="text/javascript" src="bundled.js"></script>
+</body>
+</html>
